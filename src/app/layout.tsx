@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Main | Shelter",
   description: "Shelter",
-  keywords: ["Shelter", "Home", "Pets"],
+  keywords: ["Shelter", "Home", "Main"],
 };
 
 export default function RootLayout({
