@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import "@/styles/main.scss";
 import "./globals.css";
 
+import { Footer, Header } from "@/components";
+
 export const metadata: Metadata = {
   title: "Main | Shelter",
   description: "Shelter",
@@ -16,7 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="body">{children}</body>
+      <body className="body">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
