@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 
 import "@/styles/main.scss";
 
-import { Footer, Header } from "@/components";
+import { Footer } from "@/components";
 
 export const metadata: Metadata = {
   title: "Main | Shelter",
-  description: "Shelter",
+  description: "Main | Shelter",
   keywords: ["Shelter", "Home", "Main"],
 };
 
@@ -18,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="body">
-        <Header />
         {children}
         <Footer />
       </body>
