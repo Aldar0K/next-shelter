@@ -12,9 +12,6 @@ import StartScreenPNG from "@/assets/images/png/start-screen-puppy.png";
 import ArrowLeftSVG from "@/assets/images/svg/arrow-left.svg";
 import ArrowRightSVG from "@/assets/images/svg/arrow-right.svg";
 
-import DonationPNG from "@/assets/images/png/donation-dog.png";
-import CreditSVG from "@/assets/images/svg/credit-card.svg";
-
 import BowlsSVG from "@/assets/images/svg/icon-bowls-and-cups.svg";
 import CollarsSVG from "@/assets/images/svg/icon-collars-leashes.svg";
 import MedicinesSVG from "@/assets/images/svg/icon-medicines.svg";
@@ -25,7 +22,10 @@ import ToysSVG from "@/assets/images/svg/icon-toys.svg";
 import TransportationSVG from "@/assets/images/svg/icon-transportation.svg";
 import VitaminsSVG from "@/assets/images/svg/icon-vitamins.svg";
 
-export default function Home() {
+import DonationPNG from "@/assets/images/png/donation-dog.png";
+import CreditSVG from "@/assets/images/svg/credit-card.svg";
+
+const HomePage = () => {
   return (
     <main className="main">
       <section className="not-only">
@@ -341,4 +341,6 @@ export default function Home() {
       </section>
     </main>
   );
-}
+};
+
+export default HomePage;
