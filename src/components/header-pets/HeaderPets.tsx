@@ -9,6 +9,7 @@ const HeaderPets: FC = () => {
           <h1 className="logo__title">Cozy House</h1>
           <p className="logo__subtitle">Shelter for pets in Boston</p>
         </Link>
+
         <nav className="header__navigation">
           <ul className="navigation">
             <li className="navigation__link navigation__link_dark">
@@ -24,6 +25,7 @@ const HeaderPets: FC = () => {
               <Link href="/#footer">Contacts</Link>
             </li>
           </ul>
+
           <div className="menu">
             <div className="menu__icon menu__icon_dark">
               <span className="menu__line menu__line_dark"></span>

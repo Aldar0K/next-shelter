@@ -47,7 +47,7 @@ const HomePage = () => {
               </a>
             </div>
             <div className="not-only__image">
-              <Image src={StartScreenPNG} alt="start-screen-puppy" />
+              <Image src={StartScreenPNG} alt="start-screen-puppy" priority />
             </div>
           </div>
         </section>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FC } from "react";
 
 const Header: FC = () => {
@@ -8,13 +9,14 @@ const Header: FC = () => {
           <h1 className="logo__title">Cozy House</h1>
           <p className="logo__subtitle">Shelter for pets in Boston</p>
         </a>
+
         <nav className="header__navigation">
           <ul className="navigation">
             <li className="navigation__link navigation__link_active">
               <a href="#">About the shelter</a>
             </li>
             <li className="navigation__link">
-              <a href="../pets/index.html">Our pets</a>
+              <Link href="/pets">Our pets</Link>
             </li>
             <li className="navigation__link">
               <a href="#help">Help the shelter</a>
@@ -23,6 +25,7 @@ const Header: FC = () => {
               <a href="#footer">Contacts</a>
             </li>
           </ul>
+
           <div className="menu">
             <div className="menu__icon">
               <span className="menu__line"></span>
@@ -34,7 +37,7 @@ const Header: FC = () => {
                   <a href="#">About the shelter</a>
                 </li>
                 <li className="menu__link">
-                  <a href="../pets/index.html">Our pets</a>
+                  <Link href="/pets">Our pets</Link>
                 </li>
                 <li className="menu__link">
                   <a href="#help">Help the shelter</a>
