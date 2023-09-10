@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import "@/styles/main.scss";
 
-import { HeaderPets } from "@/components";
+import { Footer, HeaderPets } from "@/components";
 
 export const metadata: Metadata = {
   title: "Pets | Shelter",
@@ -19,6 +19,7 @@ export default function RootLayout({
     <>
       <HeaderPets />
       {children}
+      <Footer />
     </>
   );
 }

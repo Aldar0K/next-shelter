@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 
 import "@/styles/main.scss";
 
-import { Footer } from "@/components";
-
 export const metadata: Metadata = {
   title: "Main | Shelter",
   description: "Main | Shelter",
@@ -17,10 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="body">
-        {children}
-        <Footer />
-      </body>
+      <body className="body">{children}</body>
     </html>
   );
 }

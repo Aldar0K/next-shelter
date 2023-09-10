@@ -24,12 +24,14 @@ import VitaminsSVG from "@/assets/images/svg/icon-vitamins.svg";
 
 import DonationPNG from "@/assets/images/png/donation-dog.png";
 import CreditSVG from "@/assets/images/svg/credit-card.svg";
-import { Header } from "@/components";
+
+import { Footer, Header } from "@/components";
 
 const HomePage = () => {
   return (
     <>
       <Header />
+
       <main className="main">
         <section className="not-only">
           <div className="wrapper not-only__wrapper">
@@ -348,6 +350,8 @@ const HomePage = () => {
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 };
